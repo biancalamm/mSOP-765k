@@ -6,9 +6,9 @@ This paper introduces mSOP-765k, a large-scale benchmark for the evaluation of m
 [https://huggingface.co/datasets/retail-product-promotion/mSOP-765k](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k).
 
 
-<!-- add abstract figure in png format -->
-
-<!--
+<!-- add abstract figure in png format 
+add links to code folder in Experiments part
+-->
 
 ## Data
 
@@ -18,7 +18,7 @@ This paper introduces mSOP-765k, a large-scale benchmark for the evaluation of m
   - The image data is divided into `train` and `test` splits.
   - The image dataset is available in two versions: one with images resized so that the longer edge measures 512 pixels, and another where the longer edge measures 256 pixels.
   
-  Refer to the folders `rpp-765k_512` and `rpp-765k_256`.
+  Refer to the folders [rpp-765k_512](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k/tree/main/rpp-765k_512) and [rpp-765k_256](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k/tree/main/rpp-765k_256).
 
 - **Product and Promotion Data:**
 
@@ -35,7 +35,7 @@ This paper introduces mSOP-765k, a large-scale benchmark for the evaluation of m
 
   The text extracted from the images by OCR with the PaddleOCR tool.
 
-  Refer to the folder `text_extraction`.
+  Refer to the folder [text_extraction](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k/tree/main/text_extraction).
 
 ## Usage
 
@@ -75,6 +75,7 @@ df_train    = pd.read_parquet(hf_hub_download(repo_id=repo_id, repo_type="datase
 df_test     = pd.read_parquet(hf_hub_download(repo_id=repo_id, repo_type="dataset", filename='test.parquet'), engine='pyarrow')
 ```
 
+<!--
 ## Experiments
 
 To evaluate the dataset, we conducted a series of experiments using different approaches. 
