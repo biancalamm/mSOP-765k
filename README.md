@@ -12,6 +12,12 @@ The following image illustrates the multi-modal Structured Output Prediction tas
 </p>
 
 
+## Dataset Description
+**Image Dataset:** This image dataset consists exclusively of image advertisements that have been cropped from leaflet pages. It has been published in context of a fine-grained image classification benchmark. In total, our provided image dataset contains 765,463 images divided into a train split of 728,892 images and a test split of 36,571 images. The training/test splits contain a minimum number of 10/3 images per label. In addition, our image dataset is available in two versions: one with images resized so that the longer edge measures 512 pixels, and another where the longer edge measures 256 pixels.<br>
+<br>
+**Structured Data:** In the mSOP-765k dataset, structured data refers to product and promotion data shown in the images. The product data comprises properties about the product(s) advertised. This data includes the information of brand, product category, GTINs, product weight, and different types. In contrast, the promotion data comprises the information on the advertised price, regular price, relative discount, and absolute discount.
+
+
 ## Data
 
 - **Image Data:**
