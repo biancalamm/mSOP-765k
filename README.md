@@ -3,7 +3,7 @@
 ## Abstract
 
 This paper introduces mSOP-765k, a large-scale benchmark for the evaluation of multi-modal Structured Output Prediction (mSOP) pipelines. Besides novel evaluation metrics, the benchmark provides combined training and test datasets with over 765,000 images taken from real-world product advertisements. Each of these images contains product visualizations, textual information like product name or brand, and numerical data such as product weight, price, and discount. All images are annotated with the corresponding structured information in form of dictionaries containing key-value pairs. An initial baseline evaluation, including various LLMs and VLMs, as well as multi-modal RAG approaches, shows that the proposed benchmark provides a challenging problem which can not yet be solved completely by state-of-the-art mSOP methods. The benchmark and dataset are available under a creative-commons license:<br>
-[https://huggingface.co/datasets/retail-product-promotion/mSOP-765k](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k).<br>
+[https://www.msop-765k.org/](https://www.msop-765k.org/).<br>
 <br>
 <br>
 The following image illustrates the multi-modal Structured Output Prediction task performed with the mSOP-765k dataset. The proposed benchmark measures the ability of a given processing pipeline to predict structured key-value pairs of textual, numerical, and list data.
@@ -86,7 +86,7 @@ df_test     = pd.read_parquet(hf_hub_download(repo_id=repo_id, repo_type="datase
 ## Experiments
 
 To evaluate the dataset, we conducted a series of experiments using different approaches. 
-The implementation code for the experiments can be found in the dataset repository [here](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k/tree/main/code).
+The implementation code for the experiments can be found in the HuggingFace dataset repository [retail-product-promotion/mSOP-765k](https://huggingface.co/datasets/retail-product-promotion/mSOP-765k/tree/main/code).
 
 The experiments fall into three main categories:
 
@@ -110,6 +110,20 @@ The paper of the Retail-786k dataset can be downloaded [here](https://arxiv.org/
 <!-- ## Paper -->
 <!-- Accepted at [Transactions on Machine Learning Research](https://jmlr.org/tmlr/). -->
 <!-- The paper can be downloaded [here](<url to paper>). -->
+<!-- Citation -->
+<!--
+Citation:
+```python
+@misc ? {lamm2024retail786k, ??
+      title={mSOP-765k: A Benchmark For Multi-Modal Structured Output Predictions}, 
+      author={Bianca Lamm and Janis Keuper},
+      year={2026},
+      eprint={2309.17164}, ?
+      archivePrefix={arXiv}, ?
+      primaryClass={cs.CV} ?
+}
+```
+-->
 
 
 ## License
