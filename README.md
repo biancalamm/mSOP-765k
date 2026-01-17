@@ -107,23 +107,23 @@ More information and access to the dataset can be found in [Retail-786k](https:/
 The paper of the Retail-786k dataset can be downloaded [here](https://arxiv.org/abs/2309.17164).
 
 
-<!-- ## Paper -->
-<!-- Accepted at [Transactions on Machine Learning Research](https://jmlr.org/tmlr/). -->
-<!-- The paper can be downloaded [here](<url to paper>). -->
-<!-- Citation -->
-<!--
+## Paper
+Accepted at [Transactions on Machine Learning Research](https://jmlr.org/tmlr/) with J2C Certification.<br>
+The paper can be downloaded [here](https://openreview.net/pdf?id=H7eYL4yFZS).
+
 Citation:
 ```python
-@misc ? {lamm2024retail786k, ??
-      title={mSOP-765k: A Benchmark For Multi-Modal Structured Output Predictions}, 
-      author={Bianca Lamm and Janis Keuper},
-      year={2026},
-      eprint={2309.17164}, ?
-      archivePrefix={arXiv}, ?
-      primaryClass={cs.CV} ?
+@article{
+lamm2026msopk,
+title={m{SOP}-765k: A Benchmark For Multi-Modal Structured Output Predictions},
+author={Bianca Lamm and Janis Keuper},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=H7eYL4yFZS},
+note={J2C Certification}
 }
 ```
--->
 
 
 ## License
