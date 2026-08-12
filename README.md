@@ -125,6 +125,10 @@ note={J2C Certification}
 }
 ```
 
+## Further Analysis of the Dataset
+The mSOP-765k dataset was used to investigate Fine-Tuning of VLM and RAG-based approaches on multimodal high velocity data.<br>
+The paper titled _Combining Fine-Tuning and RAG for Structured Output Prediction on a Multimodal High Velocity Retail Dataset_ can be downloaded [here](https://openreview.net/pdf?id=H4fdIUP8Jd).
+
 
 ## License
 This dataset is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
